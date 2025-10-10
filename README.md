@@ -4,7 +4,7 @@ We use this branch to publicize the changes we make based on the [issues](https:
 
 <center><i>
 "Why not just commit those changes to the 'master' branch?"
-</i></center>
+</i></center><br>
 
 Good point! The problem here is that, it would essentially break the `git pull --rebase --autostash` students usually use to pull week-to-week changes. Say if a student works on week 5 as part of the exercises, and this week recieves an issue-fixing commit. Next time a student wants to pull week-to-week changes, they'll have to manually address the merge conflicts in the weeks they have worked on, and that have recieved issue-fixing commits, and since this is done via rebase, the work is *extra cancerous*.
 
